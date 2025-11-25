@@ -145,7 +145,7 @@ def main():
         # INPUT DO ID DO DRIVE (Para facilitar sua vida)
         # Substitua este valor padrão pelo ID do seu arquivo model_BEST_F1_FULL.pth
         #https://drive.google.com/uc?id=16YdJi8bAMXMYaD-z1suNFX6nA2PwlDJp
-        default_id = "https://drive.google.com/uc?id=15mGRE8g8IxOj4q4qCfyBiuZPoIgB8ka_" 
+        default_id = "15mGRE8g8IxOj4q4qCfyBiuZPoIgB8ka_" 
         drive_id = st.text_input("ID do Modelo no Google Drive:", value=default_id)
         
         st.info("O modelo realiza múltiplas passadas (MC Dropout) para estimar a confiança do diagnóstico.")
