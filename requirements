@@ -1,0 +1,10 @@
+streamlit
+gdown
+torch
+torchvision
+albumentations
+pydicom
+pandas
+numpy
+Pillow
+opencv-python-headless
